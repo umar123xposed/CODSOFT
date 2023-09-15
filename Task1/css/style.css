@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Play', sans-serif;
+    
+
+}
+.center{
+    text-align: center;
+}
+/* navbar and upper part starts here */
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-radius: 55px;
+    
+    margin: 10px auto;
+    width: 53%;
+    height: 75px;
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+   
+}
+.navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    box-shadow: 0px 4px 3px 0px rgb(227 227 227);
+    border-radius: 55px;
+}
+
+
+
+.navbar #logo{
+    
+    margin: 17px -1px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0.8rem 2.3rem
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.7s ease;
+    
+}
+.navbar ul li a:hover{
+    color: rgb(250, 78, 158);
+    
+}
+#box{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+#box .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+    height: 273px;
+    margin: 17px;
+    border-radius: 20px;
+    padding: 9px 45px;
+    background-color: white;
+    box-shadow: 0px 4px 3px 0px rgb(227 227 227);
+}
+
+.main p{
+    color: rgb(118, 118, 118);
+    
+
+}
+    
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(169 108 239);
+}
+#circle-middle{
+    background-color: rgb(250, 78, 158) ;
+}
+#up>h1, #up>p{
+    color: white;
+    padding: 10px 383px
+}
+#up>h1{
+    font-size: 2.3rem;
+}
+#up::before{
+    content: "";
+    background: url("../images/background.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* navbar and upper part ends here */
+/* middle secton of left right picture starts her */
+#id2{
+    display: flex;
+    width:80%;
+    margin: 0 auto;
+    
+}
+#id2 div{
+    width: 100%;
+    padding: 85px;
+    padding-bottom: 0;
+}
+
+
+#id2 .section-title {
+    margin-left: 90px;
+    padding: 83px;
+}
+
+#id3{
+    display: flex;
+    width:80%;
+    margin: 0 auto;
+}
+#id3 div{
+    width: 100%;
+    padding: 85px;
+}
+#id3 .section-title {
+    margin-right: 90px;
+    padding: 83px;
+}
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-title h2{
+    font-weight: bolder;
+    margin-bottom:30px;
+    font-size: 24px;
+    padding: 0;
+}
+.section-title p{
+    letter-spacing: 1px;
+    padding: 0;
+    color: rgb(118, 118, 118);
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* middle section of left right picture ends here */
+
+
+/* price section starts here */
+#down{
+    position: relative;
+}
+#price-flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+#down h1{
+    font-size: 2.3rem;
+}
+.pricebox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+    height: 368px;
+    margin: 17px;
+    border-radius: 20px;
+    padding: 9px 45px;
+    background-color: white;
+    box-shadow: 0px 4px 3px 0px rgb(227 227 227);
+
+}
+.pricebox h3{
+    margin-top: -16px;
+}
+
+
+.price{
+    
+    width: 220px;
+    height: 78px;
+    background-color: rgb(169 108 239);
+    border-radius: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#price-middle{
+    background-color: rgb(250, 78, 158) ;
+}
+
+.price h4, .price p{
+    margin: 0;
+    color: white;
+    
+}
+.price h4{
+    font-size: 35px;
+}
+.price p{
+    letter-spacing: 2px;
+    color: white important;
+    
+}
+.pricebox>p{
+    text-align: center;
+    margin: 3px auto;
+    color: rgb(118, 118, 118);
+}
+
+.pricebox .btn{
+    margin-top: 20px;
+    border-style: none;
+    color: white;
+    background-color: rgb(169 108 239);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.7s ease;
+}
+.pricebox .btn:hover{
+    transform: scaleY(1.2);
+    background-color: rgb(250, 78, 158);
+    color: white;
+}
+
+#down::before{
+    content: "";
+    background-color: rgb(192 201 211 / 77%);;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 630px;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+/* price section ends here */
+
+
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+#clients div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 125px 107px;
+    transition: transform 0.3s ease-in;
+}
+#clients>div>h2{
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    color: white;
+    letter-spacing: 4px;
+}
+#clients>div>p{
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
+}
+#clients div:hover{
+    transform: translateY(-12px);
+}
+
+#clients::before{
+    content: "";
+    background: url(../images/background1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    height: 244px;
+    z-index: -1;
+    opacity: 0.75;
+
+}
+
+/* footer starts here */
+#footermain {
+    position: relative;
+}
+#footermain>p{
+    color: rgb(118, 118, 118);
+}
+#form{
+    display: flex;
+    
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#formleft{
+    
+    width: 33%;
+
+}
+#formleft>h2, #formleft>p{
+    margin: 10px 0;
+    padding: 21px 20px;
+}
+#formleft p{
+    color: rgb(118, 118, 118);
+}
+#formright{
+    width: 100%;
+}
+#formright .name{
+    width: 42%;
+    margin: 46px 9px;
+    height: 3em;
+    border-radius: 14px;
+    border-style: none;
+    padding: 0;
+    font-size: 1rem;
+    margin-left: 45px;
+    background-color: white;
+    box-shadow: 0px 4px 3px 0px rgb(227 227 227);
+}
+#formright .name:focus-visible{
+    border: 3px solid rgb(56, 56, 255);
+    
+}
+
+#formright #textarea{
+    display: block;
+    border-radius: 20px;
+    margin-left: 45px;
+    width: 91%;
+    font-size: 1rem;
+    height: 8em;
+    background-color: white;
+    border-style: none;
+    box-shadow: 0px 4px 3px 0px rgb(227 227 227);
+}
+#formright #textarea:focus-visible{
+    border: 3px solid rgb(56, 56, 255);
+    
+}
+#formright .btn{
+    margin-left: 45px;
+    margin-top: 39px;
+    border-style: none;
+    color: white;
+    background-color: rgb(169 108 239);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.7s ease;
+
+}
+#formright .btn:hover{
+    transform: scaleY(1.2);
+    background-color: rgb(250, 78, 158);
+    color: white;
+
+}
+#footermain::before{
+    content: "";
+    background-color: rgb(192 201 211 / 77%);
+    position: absolute;
+    top: -85px;
+    left: 0;
+    width: 100%;
+    height: 630px;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+
+#social{
+    
+    margin-top: 50px;
+    background-color: rgb(169 108 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#social > ul{
+    display: flex;
+    margin-top: 25px;
+}
+
+.socialflex{
+    
+    background-color:rgb(169 108 239);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0 15px;
+}
+.socialflex svg{
+    fill: white;
+    height:25px;
+    width: 25px;
+    transition: fill 0.7s ease;
+}
+.socialflex svg:hover{
+    fill: rgb(250, 78, 158);
+    
+}
+footer #copy{
+    margin-top: -25px;
+    color: white;
+    letter-spacing: 1.2px;
+    height: 0px;
+}
+/* footer ends here */
+
+
