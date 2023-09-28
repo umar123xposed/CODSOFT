@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(180deg, rgb(87, 107, 161) 20%, rgb(130, 130, 218));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#cal{
+    
+    
+    background-color: #33363d ;
+    height: 450px;
+    width: 300px;
+    
+    border-radius: 15px;
+    
+    
+
+}
+h1{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 0;
+    color: antiquewhite;
+   
+}
+p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: antiquewhite;
+}
+#screen{
+    background-color: #33363d;
+    width: 300px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgb(233, 68, 96);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 0;
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    overflow: hidden;
+    
+    
+}
+#bottom{
+    background-color: #121212;
+    width: 100%;
+    height: 320px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+button{
+    margin-top: 7px;
+    width: 45px;
+    height: 45px;
+    background-color: #121212;
+    color:aliceblue;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 0;
+    transition: transform 0.3s ease ;
+}
+button:hover{
+    transform: perspective(40px) translateZ(-3px);
+    cursor: pointer;
+}
+
+button.func{
+    background-color: rgb(230, 151, 177);
+    color: rgb(233, 68, 96);
+    box-shadow: 2px 2px 2px rgb(233, 68, 96);
+}
+button#eq{
+    background-color: rgb(85, 98, 172);
+    box-shadow: 2px 2px 3px rgb(67, 81, 156) ;
+}
